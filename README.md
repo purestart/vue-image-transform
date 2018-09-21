@@ -21,8 +21,11 @@ image transform 图片变形编辑组件，拖拽变形，并导出新的图片
     Vue.use(ImageTranform);
 
     页面中使用
-    <image-transform :onChange="onChange" :onSearch="onSearch">
-        搜索页面 推荐标签 搜索提示等等...    
+    <image-transform 
+        :imgSrc="editSrc"  
+        ref="imageTran" 
+        :width="width" 
+        :height="height">
     </image-transform>
 
 #### 参与贡献
