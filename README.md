@@ -32,6 +32,24 @@ image transform 图片变形编辑组件，拖拽变形，并导出新的图片
         :height="height">
     </image-transform>
 
+## Usage
+#### Props
+| Name              | Type               | Default             | Description                                         |
+| ----------------| ---------------- | ---------------| ------------------------------------------|
+| width             | Number            |  0                | 编辑画布宽度    |
+| height				| Number		|  0               | 编辑画布高度 |
+| imgSrc				| String		|  0               | 图片Url |
+| maxImageW				| Number		|  0               | 编辑图片最大宽度 |
+| maxImageH				| Number		|  0               | 编辑图片最大高度 |
+
+## Function
+>方法调用
+>this.$refs.imageTran.方法名(params)
+#### toDataUrl(cb) 绘制图片
+| params              | Type             | Description                                         |
+| ----------------| ----------------| ------------------------------------------|
+| cb             | Function            | 生成图片回调cb(base64)=>{}    |
+
 #### 参与贡献
 
 1. Fork 本项目
