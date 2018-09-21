@@ -1,7 +1,7 @@
 # vue-image-transform
 
 #### 项目介绍
-image transform 图片变形编辑组件，拖拽变形，并导出新的图片
+image transform 图片变形编辑组件，拖拽变形，并导出新的图片,兼容移动端和PC端
 
 ![image](http://onf2hckia.bkt.clouddn.com/github-vue-image-transform-v1.gif)
 
