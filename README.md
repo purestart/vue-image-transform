@@ -8,7 +8,7 @@ image transform 图片变形编辑组件，拖拽变形，并导出新的图片
 #### 软件架构
 兼容移动端和PC端
 
-####依赖
+#### 依赖
 目前依赖jquery,需要在index.html引入jq
 > <script type="text/javascript" src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
 
