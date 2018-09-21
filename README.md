@@ -1,9 +1,9 @@
 # vue-image-transform
 
 #### 项目介绍
-image-transform 图片变形编辑组件，并生成新的图片
+image transform 图片变形编辑组件，拖拽变形，并导出新的图片
 
-<!-- ![image](http://onf2hckia.bkt.clouddn.com/github-vue-search-bar.gif) -->
+![image](http://onf2hckia.bkt.clouddn.com/github-vue-image-transform.gif)
 
 #### 软件架构
 软件架构说明
