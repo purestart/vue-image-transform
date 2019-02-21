@@ -1,17 +1,20 @@
 # vue-image-transform
 
 #### 项目介绍
-image transform 图片变形编辑组件，拖拽变形，并导出新的图片,兼容移动端和PC端
 
-![image](http://onf2hckia.bkt.clouddn.com/github-vue-image-transform-v1.gif)
+image transform 图片变形编辑组件，拖拽变形，并导出新的图片,兼容移动端和 PC 端
+
+![image](https://gitee.com/_pure/codes/dn4u2bw65zxemfklcao9i45/raw?blob_name=github-vue-image-transform-v1.gif)
 
 #### 软件架构
-兼容移动端和PC端
+
+兼容移动端和 PC 端
 
 #### 依赖
-目前依赖jquery,需要在index.html引入jq
-> <script type="text/javascript" src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
 
+目前依赖 jquery,需要在 index.html 引入 jq
+
+> <script type="text/javascript" src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
 
 #### 安装教程
 
@@ -25,30 +28,35 @@ image transform 图片变形编辑组件，拖拽变形，并导出新的图片,
     Vue.use(ImageTranform);
 
     页面中使用
-    <image-transform 
-        :imgSrc="editSrc"  
-        ref="imageTran" 
-        :width="width" 
+    <image-transform
+        :imgSrc="editSrc"
+        ref="imageTran"
+        :width="width"
         :height="height">
     </image-transform>
 
 ## Usage
+
 #### Props
-| Name              | Type               | Default             | Description                                         |
-| ----------------| ---------------- | ---------------| ------------------------------------------|
-| width             | Number            |  0                | 编辑画布宽度    |
-| height				| Number		|  0               | 编辑画布高度 |
-| imgSrc				| String		|  0               | 图片Url |
-| maxImageW				| Number		|  0               | 编辑图片最大宽度 |
-| maxImageH				| Number		|  0               | 编辑图片最大高度 |
+
+| Name      | Type   | Default | Description      |
+| --------- | ------ | ------- | ---------------- |
+| width     | Number | 0       | 编辑画布宽度     |
+| height    | Number | 0       | 编辑画布高度     |
+| imgSrc    | String | 0       | 图片 Url         |
+| maxImageW | Number | 0       | 编辑图片最大宽度 |
+| maxImageH | Number | 0       | 编辑图片最大高度 |
 
 ## Function
->方法调用
->this.$refs.imageTran.方法名(params)
+
+> 方法调用
+> this.\$refs.imageTran.方法名(params)
+
 #### toDataUrl(cb) 绘制图片
-| params              | Type             | Description                                         |
-| ----------------| ----------------| ------------------------------------------|
-| cb             | Function            | 生成图片回调cb(base64)=>{}    |
+
+| params | Type     | Description                 |
+| ------ | -------- | --------------------------- |
+| cb     | Function | 生成图片回调 cb(base64)=>{} |
 
 #### 参与贡献
 
